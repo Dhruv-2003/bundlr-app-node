@@ -1,9 +1,6 @@
 import Bundlr from "@bundlr-network/client";
 import fs from "fs";
 
-const private_key =
-  "2de51c96959633b400d5fab4ffbcf5c0e6bc88a81d9ce769ee97537f43f1e7f9";
-
 const bundlr = new Bundlr.default(
   "https://devnet.bundlr.network",
   "matic",
